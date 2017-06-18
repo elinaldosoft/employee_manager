@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/elinaldosoft/employee_manager.svg?style=svg)](https://circleci.com/gh/elinaldosoft/employee_manager)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/filp/whoops.svg)]()
-
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
 # Employee Manager
 
 ### Administration app Online:
