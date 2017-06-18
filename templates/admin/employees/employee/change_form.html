@@ -1,0 +1,20 @@
+{% extends 'admin/change_form.html' %}
+{% load i18n admin_urls  %}
+
+{% block extrastyle %}
+<style type="text/css">
+    .select2-dropdown--above, .select2-dropdown--below {
+        width: 300px!important;
+    }
+    .select2-selection--single {
+        width: 300px!important;
+        padding-top: 5px;
+    }
+    .select2-container {
+        width: 300px!important;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 0.25rem;
+    }
+</style>
+{% endblock %}
