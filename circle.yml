@@ -1,4 +1,6 @@
 machine:
+  environment:
+    CODECLIMATE_REPO_TOKEN: 03d3103547144870507f88f5d8e6c013f215fc2594260554875bf944edf037bd
   python:
     version: 3.6.0
 
