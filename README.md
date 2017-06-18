@@ -1,13 +1,23 @@
 [![CircleCI](https://circleci.com/gh/elinaldosoft/employee_manager.svg?style=svg)](https://circleci.com/gh/elinaldosoft/employee_manager)
 # Employee Manager
 
-App Online: https://employee-manager-01.herokuapp.com/admin
+### Administration app Online:
+- https://employee-manager-01.herokuapp.com/admin
+- user: admin
+- passwd: admin153
 
-user: admin
-passwd: admin153
 
-Api:
 
-List Employees (GET) (https://employee-manager-01.herokuapp.com/employee/)
-Add Employees (POST) (https://employee-manager-01.herokuapp.com/employee/add)
-Delete Employees (DELETE) (https://employee-manager-01.herokuapp.com/employee/del)
+### RESTful API:
+
+* List Employees (GET) (https://employee-manager-01.herokuapp.com/employee/)
+```
+curl -H "Content-Type: application/javascript" https://employee-manager-01.herokuapp.com/employee/
+```
+* Add Employees (POST) (https://employee-manager-01.herokuapp.com/employee/add)
+
+```
+curl -H "Content-Type: application/json" https://employee-manager-01.herokuapp.com/employee/ -d '{"name": "Dr. Robert Bruce Banner", "email": "Dr. Robert Bruce Banner"}'
+```
+
+* Delete Employees (DELETE) (https://employee-manager-01.herokuapp.com/employee/del)
