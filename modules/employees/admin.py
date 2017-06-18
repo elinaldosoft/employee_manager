@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.forms import ModelForm
-from .models import Employee, Departament
 from django_select2.forms import ModelSelect2Widget
+from .models import Employee, Departament
 from .widgets import Bootstrap4Select
 
 
