@@ -5,6 +5,7 @@ django-appconf==1.0.2
 Django-Select2==5.10.0
 -e git+https://github.com/darklow/django-suit.git@8cd8cf2193fdce040087372e32b229dd3a03c31c#egg=django_suit
 djangorestframework==3.6.3
+psycopg2==2.7.1
 python-decouple==3.0
 pytz==2017.2
 whitenoise==3.3.0
